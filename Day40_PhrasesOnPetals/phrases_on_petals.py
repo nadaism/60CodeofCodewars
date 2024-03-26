@@ -17,4 +17,4 @@ Your goal in this kata is to determine which phrase the girls would say at the l
 def how_much_i_love_you(nb_petals):
     # your code
     kata = ["I love you", "a little", "a lot", "passionately", "madly", "not at all"]
-    return kata[(petals - 1) % len(kata)]
+    return kata[(nb_petals - 1) % len(kata)]
